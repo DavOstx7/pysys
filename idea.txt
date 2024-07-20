@@ -1,0 +1,36 @@
+# The basic idea is an automated network controller.
+# The starting idea is to use python to create all the neccessary data and library's.
+# The project should at the end present a GUI or a frontend in a local web page to see/handle/operate everything.
+
+----------IDEA BREAK DOWN----------
+* Be able to controll your computer to the fullest including things like processes, ports, services, logs.
+* Be able to powershoot problems from layer 5 to layer 2.
+* Be able to see everything including filesystem, networking, etc..
+
+* Be able to see all the other devices in your LAN including the most data available about them.
+* Be able to controll/controll the other devices to the level desired and capable
+* Be able to penetrate yourself and other devices in your LAN.
+
+----------IDEA---------
+* Create everything as objects
+* Create a library for every part of the project
+* Create a modulary code
+
+* More specific: Create an executer that can run shell code
+* More specific: Create a package for windows and linux to represent a computer
+* More specific: Create a package for nmap
+
+*** Maybe: Be able to try to log to other computers and run a function like 'get_computer_details' and share this data
+amongst PC's in an encrypted way OR just keep it simple (use the nmap scanner to get details)
+
+
+----------RISKY----------
+* Create a new protocol to share the data between computers
+* Maybe make it possible so that ONE computer could be shared across multiple physical PC's
+* Automate pen-testing process
+
+----------IMPORTANT----------
+* Make it as modular as possible so you can do everything you want with it:
+Scan/Handle/Share the network
+
+
